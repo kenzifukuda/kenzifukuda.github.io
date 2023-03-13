@@ -1,0 +1,186 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    }
+
+header {
+  display: block;
+  width: 100%;
+  padding-bottom: 50px;
+  border-bottom: 2px solid black;
+
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    font-family: Helvetica, monospace;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #ada7ff;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover{
+    background-color: #ada7ff;
+}
+
+#logo{
+  width: 50px;
+  float:left;
+}
+
+/* End of Naviagtion Styling */
+
+
+.mochi-cats {
+  position: fixed;
+  top: 20px;
+  right: 0%;
+  z-index: 1;
+}   
+
+#greeting{
+  text-align: center;
+  margin-top: 60px;
+  font-family: Helvetica;
+  color: black;
+  margin-bottom: 0;
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: justify;
+  font-family: Helvetica;
+  overflow-x: hidden;
+
+}
+
+.container li {
+  color: black;
+  text-align: justify;
+  font-family: Helvetica;
+  line-height: 1.5;
+  list-style: none;
+}
+
+.container li:before {
+  content:''; 	
+  display:inline-block; 	
+  height:2em; 	
+  width:2em; 	
+  background-image:url(../images/mochi-cat-blog.gif); 	
+  background-size:contain; 	
+  background-repeat:no-repeat;
+}
+
+p {
+  line-height: 2;
+  font-size: 18px;
+}
+.container {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.images {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  /* border-style: dashed; */
+}
+
+#hangeul {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+
+}
+
+.list {
+  width: 75%;
+  margin: auto;
+  
+}
+
+#spacing {
+  width: 100%;
+  height: 200px;
+}
+
+@media (max-width: 650px) {
+    body {
+      display: block;
+      font-size: 80%;
+    }
+    p {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 1rem;
+      background: rgba(white, 0.8);
+    }
+  }
+  
+  
+  /* footer styling */
+  footer {
+      flex-shrink: 0;
+      font-family: Helvetica;
+      border-top: black 1px solid;
+      text-align: center;
+      background-color: black;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      overflow: hidden;
+  }
+  
+  #contact{
+      list-style: none;
+  }
+  
+  #contact li{
+      display: inline-block;
+  }
+  
+  #social-media{
+      width: 50px;
+      margin: auto;
+      display: inline;
+  }
+  
+  #social-media img{
+      width: 15px
+  }

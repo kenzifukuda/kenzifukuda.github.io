@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="kenzi, fukuda, blog, personal, website, babson">
+    <meta name="author" content="Kenzi Fukuda">
+    <link rel="stylesheet" type="text/css" href="styles/about.css">
+    <link rel="icon" type="image/png" href="images/personal-logo-solid.png"/>
+    <title>Home</title>
+</head>
+
+<nav>
+    <h1><a href="index.html"><img id="logo" src="images/personal-logo.png" title="logo" alt="kf-logo"></a></h1>
+    <div id="mySidenav" class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        <a href="index.html" id="home">HOME</a>
+        <a href="professional.html" id="professional">PROFESSIONAL</a>
+        <a href="blog.html" id="blog">BLOG</a>
+        <a href="hobis.html" id="hobis">HOBIs</a>
+        <a href="pics.html" id="pics">PICS</a>
+        <a href="about.html" class = "active" id="about">ABOUT</a>
+      </div>
+
+</nav>
+
+<header>
+    <!-- mochi cat gif -->
+    <div class="mochi-cats">
+        <img id="mochi-cat-home" src="images/mochi-cat-about.gif" title="mochi-cat-about" alt="mochi cat squishy cheeks" width="200px">
+    </div> 
+
+   <h1 id="greeting">About Me</h1>
+</header>
+
+<body>
+    
+    <div class="grid">
+        <div class="container-parent">
+            <!-- <div class="container" id="general">
+                <div class="">
+                    <h2>Kenzi Fukuda</h2>
+                </div>
+            </div> -->
+            <div class="container" id="intro">
+                <div class="">
+                    <h2>
+                        
+                        Hello Friends! 
+                        <br>
+                        My name is Kenzi (pronounced Ken-Ji) 
+                        <br>
+                        I'm 23 years old, living in Brooklyn, and I'm so glad you're here!
+                        <br>
+                        Welcome to My Mind
+                    </h2>
+                </div>
+            </div>
+            <div class="container" id="something-else">
+                <div class="">
+                    <p>
+                        <br>
+                        The things I care about most are my friends, music, homemade food, and preserving the natural beauty of our Earth.
+                        I value honest conversation, feeling your feelings, and a really good cookie. 
+                        I'm a data analyst by day, which is cool, but it doesn't define me. I consider myself shy, but friendly if given
+                        enough time to figure out what I want to say. One day I hope to be as open and honest in person as I am on here. 
+                        The things written and seen here are my own thoughts, feelings, and 
+                        experiences. It's basically a manifestation of all the words I can't seem to find when I want to express myself in person.
+                        <br>
+                        <br>
+                        I hope my website can be comforting, relatable, or at the least, amusing. Enjoy! 
+                        <br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="container" id="pic">
+                <div class="">
+                    <!-- <img src="images/Website Photos/kenzi.jpg"> -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+</body>
+
+
+<footer>
+    <ul id="contact">
+
+        <li>
+            Contact Info:
+        </li>
+        <li>
+            Kenzi Fukuda |
+        </li>
+        <li>
+            Email: <a href="mailto:kfukuda1@babson.edu">kfukuda1@babson.edu</a> |
+        </li>
+        <li>
+            Phone: 201-362-7472 |
+        </li>
+        <li>
+            <a href="sitemap.html">Sitemap</a> |
+        </li>
+        <li>
+            <a href="credits.html">Credits</a> |
+        </li>
+        <div id="social-media">
+            <a href="https://www.instagram.com/f__kenzi/"><img src="images/instagram-icon.webp" title="instagram" alt="instagram" width="50px"></a>
+            <a href="https://twitter.com/KenziFukuda"><img src="images/twitter-icon.png" title="twitter" alt="twitter" width="50px"></a>
+            <a href="https://www.linkedin.com/in/kenzifukuda/"><img src="images/linkedin-icon.png" title="linkedin" alt="linkedin" width="50px"></a>
+        </div>
+    </ul>
+</footer>
+
+<script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        let x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181022990-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-181022990-1');
+    </script>
+
+    <!-- animate the header to move across the screen -->
+    <script>
+
+        const moving = document.getElementById("moving-title");
+        let p = 5;
+        let i = 0;
+
+        function move() {
+            moving.style.left = p + "px";
+            if (p > document.querySelector('#moving-title-container').clientWidth - 50) {
+            p = 5;
+            i++;
+            if (i === moving.length) {
+             i = 0;
+            }
+            } else {
+            p = p + 5;
+            }
+            setTimeout(move, 50);
+        }
+        document.querySelector('body').onload = move;
+    </script>
+
+</html>

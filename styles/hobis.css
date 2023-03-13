@@ -1,0 +1,431 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    }
+
+header {
+  display: block;
+  width: 100%;
+  padding-bottom: 50px;
+  border-bottom: 2px black solid;
+
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    font-family: Helvetica, monospace;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #ada7ff;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover{
+    background-color: #ada7ff;
+}
+
+#logo{
+  width: 50px;
+  float:left;
+}
+
+/* End of Naviagtion Styling */
+
+
+.mochi-cats {
+  position: fixed;
+  top: 20px;
+  right: 0%;
+
+}   
+
+#greeting{
+  text-align: center;
+  margin-top: 60px;
+  font-family: Helvetica;
+  color: black;
+  margin-bottom: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: justify;
+    font-family: Helvetica;
+  
+}
+
+.container {
+    width: 60%;
+    margin: 2rem auto;
+}
+  
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 5w);
+    grid-gap: 15px;
+    
+}
+
+.recipe-box {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.recipe-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe-box a:hover {
+    color:#ada7ff
+}
+
+
+
+
+#recipe-box--1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* border-style: dashed; */
+    background-image: url(../images/chocolate-chip-cookies.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+#recipe-box--2 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* border-style: dashed; */
+    background-image:url(../images/vanilla-cake-real.jpg); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+#recipe-box--3 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* border-style: dashed; */
+    background-image: url(../images/banana-bread-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+
+#recipe-box--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    /* border-style: dashed; */
+    background-image: url(../images/eggnog-cookies-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+
+#recipe-box--5 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    /* border-style: dashed; */
+    background-image: url(../images/pecan-pie-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+#recipe-box--6 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    /* border-style: dashed; */
+    background-image: url(../images/berry-pie-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+
+#recipe-box--7 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    /* border-style: dashed; */
+    background-image: url(../images/apple-pie-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+#recipe-box--8 {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    /* border-style: dashed; */
+    background-image: url(../images/oatmeal-cookies-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+#recipe-box--9 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    /* border-style: dashed; */
+    background-image: url(../images/cranberry-muffins-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
+}
+
+
+.recipe-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.image-caption {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+
+#recipe-box--2 #popup1{
+    display: none;
+}
+
+#recipe-box--2:hover #popup1{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--3 #popup2{
+    display: none;
+}
+
+#recipe-box--3:hover #popup2{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--4 #popup3{
+    display: none;
+}
+
+#recipe-box--4:hover #popup3{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--5 #popup4{
+    display: none;
+}
+
+#recipe-box--5:hover #popup4{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--6 #popup5{
+    display: none;
+}
+
+#recipe-box--6:hover #popup5{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--7 #popup6{
+    display: none;
+}
+
+#recipe-box--7:hover #popup6{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--8 #popup7{
+    display: none;
+}
+
+#recipe-box--8:hover #popup7{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--9 #popup8{
+    display: none;
+}
+
+#recipe-box--9:hover #popup8{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.popup {
+    color: white;
+    font-size: 30px;
+}
+
+
+@media (max-width: 650px) {
+    body {
+      display: block;
+      font-size: 80%;
+    }
+    p {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 1rem;
+      background: rgba(white, 0.8);
+    }
+  }
+
+
+
+
+
+/* footer styling */
+footer {
+    flex-shrink: 0;
+    font-family: Helvetica;
+    border-top: black 1px solid;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#contact{
+    list-style: none;
+}
+
+#contact li{
+    display: inline-block;
+}
+
+#social-media{
+    width: 50px;
+    margin: auto;
+    display: inline;
+}
+
+#social-media img{
+    width: 15px
+}
